@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+/*button*/
+button{
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: rgb(156, 159, 158);
+    border: none;
+
+}
+h1{
+    color: white;
+}
+
+.container{
+    max-width: 450px;
+    background: lightseagreen;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.4);
+    font-family:time;
+    padding: 40px;
+}
+.container input{
+    padding: 10px;
+    display: flex;
+    margin-top: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+
+}
+h2{
+    color: white;
+    margin-top: 15px;
+}
+#celsius{
+    display: flex;
+    gap: 10px;
+}
+
+#fahrenheit{
+    display: flex;
+    gap: 10px;
+}
+
+#kelvin{
+    display: flex;
+    gap: 10px;
+    
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
